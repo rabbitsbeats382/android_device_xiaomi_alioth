@@ -34,7 +34,7 @@ PRODUCT_RELEASE_NAME := alioth
 
 # Custom vendor used in build tree (automatically taken from this file's prefix)
 #CUSTOM_VENDOR := $(lastword $(subst /, ,$(firstword $(subst _, ,$(firstword $(MAKEFILE_LIST))))))
-CUSTOM_VENDOR := twrp
+CUSTOM_VENDOR := pb
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/$(CUSTOM_VENDOR)/config/common.mk)
